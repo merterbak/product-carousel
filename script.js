@@ -36,7 +36,7 @@
         const favorites = JSON.parse(localStorage.getItem('customCarouselFavorites') || '[]');
         const carouselHtml = `
           <div class="custom-carousel">
-            <h2 class="carousel-title">Sizin için Seçtiklerimiz</h2>
+            <h2 class="carousel-title">Beğenebileceğinizi Düşündüklerimiz</h2>
             <div class="carousel-container">
               <button class="carousel-arrow left-arrow">&lt;</button>
               <div class="carousel-items">
